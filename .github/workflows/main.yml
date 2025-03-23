@@ -1,0 +1,38 @@
+name: Publish on GitHub
+on:
+  workflow_dispatch:
+    inputs:
+      modrinth-id: { description: 'Modrinth Project ID' }
+      modrinth-token: { description: 'Modrinth API Token' }
+      github-token: { description: 'GitHub API Token' }
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Download Modrinth Modpack
+        run: |
+          curl -o modpack.mrpack https://api.modrinth.com/v2/project/${{ github.event.inputs.modrinth-id }}/version
+      - name: Upload to GitHub
+        uses: svenstaro/upload-release-asset@v2
+        with:
+          repo-token: ${{ github.event.inputs.github-token }}
+          file: modpack.mrpack
+          name: modpack.mrpack
+          tag: ${{ github.event.inputs.modrinth-id }}
+          generate-notes: true
+      - name: Add Additional Files
+        run: |
+          if [ -f additional_file.txt ]; then
+            curl -X POST \
+              https://api.github.com/repos/${GITHUB_REPOSITORY}/releases \
+              -H 'Authorization: Bearer ${{ github.event.inputs.github-token }}' \
+              -H 'Content-Type: application/json' \
+              -d '{"tag_name": "${GITHUB_REF}", "name": "Additional File", "body": "Additional file for modpack"}'
+            curl -X POST \
+              https://uploads.github.com/repos/${GITHUB_REPOSITORY}/releases/${GITHUB_REF}/assets \
+              -H 'Authorization: Bearer ${{ github.event.inputs.github-token }}' \
+              -H 'Content-Type: application/octet-stream' \
+              -T additional_file.txt
+          fi
