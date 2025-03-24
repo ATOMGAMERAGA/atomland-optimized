@@ -24,16 +24,16 @@ Kurulum için isterseniz [modrinthi](https://modrinth.com/modpack/atomland) kull
 yani modrinth dışında istediğniz client veya launcher da çalıştırabilirsiniz ancak lunar client desteklemiyoruz desteklediğmiz 
 launcher ve clientlerin listesi aşşağda.
 
-'Modrinth App , Prism Launcher , MultiMC'
+`Modrinth App , Prism Launcher , MultiMC`
 
-'''Uyarı! : CurseForge ve Minecraft Launcher gibi yerlerde kurmak için bir desteğyimiz yok yani manuel kurmanız lazım.'''
+```Uyarı! : CurseForge ve Minecraft Launcher gibi yerlerde kurmak için bir desteğyimiz yok yani manuel kurmanız lazım.```
 
 Minecraft Launcher Kurulum:
 
-Önce [fabric idiriciyi](https://fabricmc.net/use/installer/) indirin ardından hangi sürümü kurcaksanız ordan seçin ve kurun , sonra 'WİNDOWS+R' tuşlarına 
-basın açılan menüye '%appdata%' yazın sonra 'Roaming' klasörüne girin oradan .minecraft dosyasını bulun ve onun içine gidin , bizim [modrinth](https://modrinth.com/modpack/atomland) 
+Önce [fabric idiriciyi](https://fabricmc.net/use/installer/) indirin ardından hangi sürümü kurcaksanız ordan seçin ve kurun , sonra `WİNDOWS+R` tuşlarına 
+basın açılan menüye `%appdata%` yazın sonra `Roaming` klasörüne girin oradan `.minecraft` dosyasını bulun ve onun içine gidin , bizim [modrinth](https://modrinth.com/modpack/atomland) 
 sayfamızdan fabric loader dan seçtiğniz versiyona tıklayip (sayfanın en altında) .zip uzantılı dosyayı indirdikten sonra zip i çıkarın ve zipin içindeki mods klasöründeki herşeyi az önce girdiğiniz klasöre atın diğer 
-dosyalarıda .minecraftın içine atın ve Minecraft launcher ı yeniden başlatın ve artık hazırsınız!
+dosyalarıda `.minecraf`tın içine atın ve Minecraft launcher ı yeniden başlatın ve artık hazırsınız!
 
 ### EN:
 For installation you can use [modrinth](https://modrinth.com/modpack/atomland) if you like, our new versions have .zip support 
