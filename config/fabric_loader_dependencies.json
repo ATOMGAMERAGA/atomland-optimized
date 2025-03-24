@@ -1,0 +1,21 @@
+def cape_mod_suggestion(installed_mod_id):
+  """
+  Kullanıcı belirli bir cape modunu kullanıyorsa, başka bir cape modu önerir.
+
+  Args:
+    installed_mod_id: Kullanıcının yüklü olan cape modunun ID'si (string).
+
+  Returns:
+    Önerilen modun adını içeren bir string, veya eğer hiçbir öneri yoksa None.
+  """
+
+  if installed_mod_id == "capes":  # Modrinth'teki "Capes" modu (OptiFine, LabyMod, MinecraftCapes desteği)
+    print("Konsolda öneri: Eğer daha fazla cape seçeneği ve özelleştirme istiyorsanız, MinecraftCapes Mod'unu (CurseForge) deneyebilirsiniz: https://www.curseforge.com/minecraft/mc-mods/minecraftcapes-mod")
+  else:
+    return None
+
+# Örnek kullanım:
+installed_mod = "capes" # Kullanıcının Modrinth'teki "Capes" modunu kullandığını varsayalım.
+cape_mod_suggestion(installed_mod)
+
+
