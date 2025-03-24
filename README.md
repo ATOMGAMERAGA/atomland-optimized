@@ -4,9 +4,9 @@
 
 # ATOMLAND Optimized
  ### TR:
- ATOMLAND Optimized piyasada bulabilceğniz bedavaya en hızlı ve en az modla size en çok fpsi
+ ATOMLAND Optimized piyasada bulabilceğniz bedavaya en hızlı ve en az modla size en çok fps yi
  veren tek modpack isterseniz kendi modunuzu ekleyip kullanabilirsiniz neredeyse hiçbir modla çakışmıyor
- 1.16.5 den 1.21.3 e kadar olan bütün sürümler için desteğimiz var.
+ 1.16.5 den 1.21.4 e kadar olan bütün sürümler için desteğimiz var.
  
  Bütün versiyonlarımız 🪟 Windows, 🐧 Linux ve 🍏 macOS üzerinde çevrimdışı ve online olarak çalıştırılabilcek şeklinde tasarlandı.
  
@@ -21,16 +21,18 @@
 ## Kurulum / Download
 ### TR:
 Kurulum için isterseniz [modrinthi](https://modrinth.com/modpack/atomland) kullanabilirsiniz yeni sürümlerimizde .zip desteği var 
-yani modrinth dışında istediğniz client veya launcher de çalıştırabilirsiniz ancak lunar client desteklemiyoruz desteklediğmiz 
+yani modrinth dışında istediğniz client veya launcher da çalıştırabilirsiniz ancak lunar client desteklemiyoruz desteklediğmiz 
 launcher ve clientlerin listesi aşşağda.
 
-CurseForge App , Modrinth App , Prism Launcher , MultiMC , Minecraft Launcher
+'Modrinth App , Prism Launcher , MultiMC'
+
+'''Uyarı! : CurseForge ve Minecraft Launcher gibi yerlerde kurmak için bir desteğyimiz yok yani manuel kurmanız lazım.'''
 
 Minecraft Launcher Kurulum:
 
-Önce [fabric idiriciyi](https://fabricmc.net/use/installer/) indirin ardından hangi sürümü kurcaksanız ordan seçin ve kurun , sonra WİNDOWS+R tuşlarına 
-basın açılan menüye %appdata% yazın sonra oradan .minecraft dosyasını bulun ve onun içine gidin , bizim [modrinth](https://modrinth.com/modpack/atomland) 
-sayfamızdan (sayfanın en altında) .zip uzantılı dosyayı indirdikten sonra zip i çıkarın ve mods klasöründeki herşeyi az önce girdiğiniz klasöre atın diğer 
+Önce [fabric idiriciyi](https://fabricmc.net/use/installer/) indirin ardından hangi sürümü kurcaksanız ordan seçin ve kurun , sonra 'WİNDOWS+R' tuşlarına 
+basın açılan menüye '%appdata%' yazın sonra 'Roaming' klasörüne girin oradan .minecraft dosyasını bulun ve onun içine gidin , bizim [modrinth](https://modrinth.com/modpack/atomland) 
+sayfamızdan fabric loader dan seçtiğniz versiyona tıklayip (sayfanın en altında) .zip uzantılı dosyayı indirdikten sonra zip i çıkarın ve zipin içindeki mods klasöründeki herşeyi az önce girdiğiniz klasöre atın diğer 
 dosyalarıda .minecraftın içine atın ve Minecraft launcher ı yeniden başlatın ve artık hazırsınız!
 
 ### EN:
