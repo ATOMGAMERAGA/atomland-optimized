@@ -1,51 +1,46 @@
 <div align="center">
-
 <img src="https://r.resimlink.com/vFRwz98n.png" alt="AO logo" width="10%" height="10%">
-
-# ATOMLAND Optimized
- ### TR:
- ATOMLAND Optimized piyasada bulabilceğniz bedavaya en hızlı ve en az modla size en çok fps yi
- veren tek modpack isterseniz kendi modunuzu ekleyip kullanabilirsiniz neredeyse hiçbir modla çakışmıyor
- 1.16.5 den 1.21.4 e kadar olan bütün sürümler için desteğimiz var.
- 
- Bütün versiyonlarımız 🪟 Windows, 🐧 Linux ve 🍏 macOS üzerinde çevrimdışı ve online olarak çalıştırılabilcek şeklinde tasarlandı.
- 
- ### EN:
- ATOMLAND Optimized gives you the fastest and most fps with the fewest mods you can find on the market for free. the only modpack that gives you a single modpack, you can add your own 
- mod if you want and use it almost does not conflict with any mod We have support for all versions from 1.16.5 to 1.21.4.
- 
- All our versions are designed to run offline and online on 🪟 Windows, 🐧 Linux and 🍏 MacOS.
- 
- 
-## Kurulum / Download
- ### TR:
- Kurulum için isterseniz [modrinthi](https://modrinth.com/modpack/atomland) kullanabilirsiniz yeni sürümlerimizde .zip desteği var 
- yani modrinth dışında istediğniz client veya launcher da çalıştırabilirsiniz ancak lunar client desteklemiyoruz desteklediğmiz 
- launcher ve clientlerin listesi aşşağda.
-
- `Modrinth App , Prism Launcher , MultiMC`
-
- ```Uyarı! : CurseForge ve Minecraft Launcher gibi yerlerde kurmak için bir desteğyimiz yok yani manuel kurmanız lazım.```
-
- Minecraft Launcher Kurulum:
-
- Önce [fabric idiriciyi](https://fabricmc.net/use/installer/) indirin ardından hangi sürümü kurcaksanız ordan seçin ve kurun , sonra `WİNDOWS+R` tuşlarına 
- basın açılan menüye `%appdata%` yazın sonra `Roaming` klasörüne girin oradan `.minecraft` dosyasını bulun ve onun içine gidin , bizim [modrinth](https://modrinth.com/modpack/atomland) 
- sayfamızdan fabric loader dan seçtiğniz versiyona tıklayip (sayfanın en altında) .zip uzantılı dosyayı indirdikten sonra zip i çıkarın ve zipin içindeki mods klasöründeki herşeyi az 
- önce girdiğiniz klasöre atın diğer 
- dosyalarıda `.minecraf`tın içine atın ve Minecraft launcher ı yeniden başlatın ve artık hazırsınız!
-
-### EN:
- For installation you can use [modrinthi](https://modrinth.com/modpack/atomland) if you want, our new versions have .zip support so you can run any client or launcher you want other 
- than modrinth, but we do not support the lunar client. 
- Here is the list of launchers and clients.
-
- Modrinth App , Prism Launcher , MultiMC` Warning! We don't have support to install it in places like CurseForge and Minecraft Launcher, so you have to install it manually.
-
- Minecraft Launcher Installation:
-
- First download the [fabric downloader] (https://fabricmc.net/use/installer/), then select and install the version you want to install, then press `WINDOWS+R`. 
- In the menu that opens, type `%appdata%` then go to the `Roaming` folder, find the `.minecraft` file and go into it, our [modrinth](https://modrinth.com/modpack/atomland) click on the 
- version you selected from the fabric loader on our page (at the bottom of the page) and download the .zip file, then extract the zip and put everything in the mods folder inside the 
- zip in the folder you just entered. and put the files into `.minecraf`, restart the Minecraft launcher and you're ready to go!
-
+ATOMLAND Optimized
+En Saf Performans. Maksimum FPS.
+</div>
+TR 🇹🇷
+ATOMLAND Optimized, Minecraft'ı en akıcı haliyle oynamanız için geliştirildi. Yalnızca en temel optimizasyon modlarını içeren bu paket, gereksiz eklentiler olmadan alabileceğiniz en yüksek performansı ve FPS artışını garanti eder.
+Ana Özellikler:
+ * 🚀 Maksimum FPS: En mütevazı sistemlerde bile rekabetçi akıcılık.
+ * 🧩 Sınırsız Uyumluluk: Kendi modlarınızı neredeyse sıfır çakışma riskiyle ekleyerek oyunu kişiselleştirin.
+ * ✨ Daima Güncel: 1.16.5'ten en son sürüme kadar tam destek.
+ * 💻 Platform Bağımsız: 🪟 Windows, 🐧 Linux ve 🍏 macOS üzerinde çevrimdışı ve çevrimiçi kusursuz çalışır.
+EN 🇬🇧
+ATOMLAND Optimized is engineered to deliver the definitive, high-performance Minecraft experience. By focusing exclusively on essential optimization mods, this pack guarantees the highest possible FPS boost, free from unnecessary bloat.
+Core Features:
+ * 🚀 Maximum FPS: Achieve competitive framerates, even on modest hardware.
+ * 🧩 Seamless Compatibility: Customize your gameplay by adding your own mods with a near-zero risk of conflict.
+ * ✨ Always Current: Full support for all versions from 1.16.5 to the latest release.
+ * 💻 Cross-Platform: Runs flawlessly online and offline across 🪟 Windows, 🐧 Linux, and 🍏 macOS.
+Kurulum / Installation
+TR 🇹🇷
+En kolay kurulum için Modrinth App, Prism Launcher veya MultiMC gibi modern başlatıcıları şiddetle tavsiye ediyoruz. Bu uygulamalar, mod paketimizi tek tıkla kurmanızı sağlar.
+> Uyarı: CurseForge ve varsayılan Minecraft Launcher için doğrudan destek sunmuyoruz. Bu platformlarda aşağıdaki manuel kurulum adımlarını izlemeniz gerekmektedir.
+> 
+Minecraft Launcher Manuel Kurulum:
+ * Öncelikle Fabric Yükleyici'yi indirin, istediğiniz Minecraft sürümünü seçin ve kurun.
+ * .minecraft klasörünüzü bulun:
+   * Windows: Windows + R tuşuna basın, açılan pencereye %appdata%\.minecraft yazın ve Enter'a basın.
+   * Linux: Ev dizininizde ~/.minecraft klasörünü açın. (Genellikle gizlidir, Ctrl+H ile gösterebilirsiniz).
+   * macOS: Finder'da Git → Klasöre Git seçeneğine tıklayın ve ~/Library/Application Support/minecraft yazın.
+ * Modrinth sayfamızdan kurduğunuz Fabric sürümüyle uyumlu .zip dosyasını indirin.
+ * İndirdiğiniz .zip dosyasının içindeki tüm klasörleri (mods, config vb.) .minecraft klasörünüze sürükleyip bırakın. (Var olan dosyaları değiştirme uyarısı alırsanız onaylayın).
+ * Minecraft Launcher'ı yeniden başlatın. Sürümler listesinden fabric-loader profilini seçin ve oynayın. Hazırsınız!
+EN 🇬🇧
+For the easiest installation, we highly recommend using a modern launcher like the Modrinth App, Prism Launcher, or MultiMC. These applications allow for a one-click installation.
+> Warning: We do not offer direct support for CurseForge or the default Minecraft Launcher. You will need to follow the manual installation steps below for these platforms.
+> 
+Minecraft Launcher Manual Installation:
+ * First, download the Fabric Installer, select your desired Minecraft version, and install it.
+ * Locate your .minecraft folder:
+   * Windows: Press Windows + R, type %appdata%\.minecraft in the dialog, and press Enter.
+   * Linux: Navigate to ~/.minecraft in your home directory. (It's often hidden; press Ctrl+H to show it).
+   * macOS: In Finder, click Go → Go to Folder... and type ~/Library/Application Support/minecraft.
+ * From our Modrinth page, download the .zip file that matches the Fabric version you installed.
+ * Extract all contents of the downloaded .zip file (folders like mods, config, etc.) directly into your .minecraft folder. (Overwrite existing files if prompted).
+ * Restart the Minecraft Launcher, select the fabric-loader profile from the installations list, and click Play. You're all set!
